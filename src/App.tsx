@@ -1,7 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import logo1 from './assets/logo1.png'
-import viteLogo from '/vite.svg'
 import bg from './assets/bg.jpg'
 import logo from './assets/logo.png'
 import './App.css'
@@ -9,8 +7,6 @@ import video from './assets/vid.mp4'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
@@ -28,7 +24,7 @@ function App() {
       <video src={video} autoPlay loop muted playsInline></video>
       
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => {}}>
           <a href="https://dexscreener.com/abstract/0x7887b47ec1c904d67891cdef23266380c38a46f1" target="_blank">TRADE NOW</a>
         </button>
       </div>
