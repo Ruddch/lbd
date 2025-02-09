@@ -5,6 +5,8 @@ import video from './assets/vid.mp4'
 import video2 from './assets/vid2.mp4'
 import video3 from './assets/vid3.mp4'
 import logo1 from './assets/logo1.png'  
+import video4 from './assets/dance.mp4'
+import video5 from './assets/vid5.mp4'
 const Carousel = () => {
     const mockItems = [
       {
@@ -28,7 +30,16 @@ const Carousel = () => {
             url: video3,
             type: 'video'
         },
-       
+        {
+            id: 'item-4',
+            url: video4,
+            type: 'video'
+        },
+        {
+            id: 'item-5',
+            url: video5,
+            type: 'video'
+        },
     ]
     const [currentSlide, setCurrentSlide] = useState(mockItems[0].id)
 
