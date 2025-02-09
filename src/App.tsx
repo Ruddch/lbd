@@ -8,17 +8,19 @@ function App() {
     <>
       <div className="container1">
         <div className="wrapper">
-        <h1 className="text-center text-4xl font-bold title-main">The first community meme token <br/>created in an online live stream</h1>
-      
-      <h1 className="text-center text-4xl font-bold abstract">on Abstract</h1>
-      <div className="px-30 w-[80%] mx-auto"><Carousel /></div>
-      <div className="card">
-        <button className="bg-blue-500 text-2xl font-bold font-size-2xl hover:bg-blue-700 text-xl text-white px-8 m--10 py-8 rounded-full" onClick={() => {}}>
-          <a href="https://dexscreener.com/abstract/0x7887b47ec1c904d67891cdef23266380c38a46f1" target="_blank"><h1>BUY $LBD</h1></a>
-        </button>
-        <p className="text-center py-10 text-l text-white">Our goal is growth. Together. Be a part of history.</p>
-      </div>
-      </div>
+          <div className="">
+            <h1 className="text-center text-4xl font-bold title-main goldman-regular">The first token from the streamer launched</h1>
+            <h1 className="text-center font-size-2xl text-4xl font-bold abstract goldman-bold">on Abstract</h1>
+          </div>
+          <div className="px-0 w-[100%] mx-auto"><Carousel /></div>
+          <div className="card h-[25vh]">
+          <a href="https://dexscreener.com/abstract/0x7887b47ec1c904d67891cdef23266380c38a46f1" target="_blank"><button className="bg-blue-500 hover:bg-blue-700 text-white px-16 py-4 rounded-full" onClick={() => {}}>
+              <h1 className="goldman-bold">BUY $LBD</h1>
+              <p className="moonshot goldman-regular">on Moonshot</p>
+            </button></a>
+            <p className="text-center py-5 text-l text-white">Our goal is growth. Together. Be a part of history.</p>
+          </div>
+        </div>
       </div>
     </>
   )

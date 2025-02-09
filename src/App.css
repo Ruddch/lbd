@@ -59,8 +59,35 @@
 }
 
 .title-main {
+  background: -webkit-linear-gradient(#021A36, #CBF3FE);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: #CBF3FE
 }
 .abstract {
-  color: #00BF2D
+  color: #057EEC;
+  font-size: 71px;
+}
+.abstract-border {
+  border: 2px solid #057EEC;
+}
+.buy {
+  background: #007BEC;
+}
+.goldman-regular {
+  font-family: "Goldman", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.goldman-bold {
+  font-family: "Goldman", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.moonshot {
+  font-size: 22px;
+  font-weight: 400;
+  color: #E0FF31;
 }
