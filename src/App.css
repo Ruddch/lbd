@@ -1,9 +1,13 @@
+@import "tailwindcss";
+
 #root {
-  max-width: 1280px;
+  width: 100%;
+  
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
+
+
 
 .logo {
   height: 6em;
@@ -32,11 +36,31 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
-.card {
-  padding: 2em;
-}
-
 .read-the-docs {
   color: #888;
+}
+
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #000 url(./assets/bg/bg.png) center center;
+  color: #fff;
+}
+
+.wrapper {
+  padding: 2% 0;
+}
+
+.item {
+  width: 20%;
+  height: 20%;
+}
+
+.title-main {
+  color: #CBF3FE
+}
+.abstract {
+  color: #00BF2D
 }
