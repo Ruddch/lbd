@@ -54,8 +54,6 @@ const Carousel = () => {
 
     const {
         carouselFragment,
-        slideToPrevItem, // go back to previous slide
-        slideToNextItem, // move to next slide
         useListenToCustomEvent //custom hook to listen event when the slide changes
     } = useSpringCarousel({
         itemsPerSlide: 5, // number of slides per view
