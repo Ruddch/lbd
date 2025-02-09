@@ -14,7 +14,7 @@ function App() {
           </div>
           <div className="px-0 w-[100%] mx-auto"><Carousel /></div>
           <div className="card h-[25vh]">
-          <a href="https://dexscreener.com/abstract/0x7887b47ec1c904d67891cdef23266380c38a46f1" target="_blank"><button className="bg-blue-500 hover:bg-blue-700 text-white px-16 py-4 rounded-full" onClick={() => {}}>
+          <a href="https://dexscreener.com/abstract/0x7887b47ec1c904d67891cdef23266380c38a46f1" target="_blank"><button className="bg-blue-500 hover:bg-blue-700 text-white px-16 py-4 rounded-full btn" onClick={() => {}}>
               <h1 className="goldman-bold">BUY $LBD</h1>
               <p className="moonshot goldman-regular">on Moonshot</p>
             </button></a>

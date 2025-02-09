@@ -4,9 +4,9 @@ import { useSpringCarousel } from 'react-spring-carousel'
 import video from './assets/vid.mp4'
 import video2 from './assets/vid2.mp4'
 import video3 from './assets/vid3.mp4'
-import logo1 from './assets/logo1.png'  
 import video4 from './assets/dance.mp4'
 import video5 from './assets/vid5.mp4'
+import logo from './assets/0000.gif'
 
 function getExtremeSlides(activeIndex: number, totalSlides: number) {
   const prevSlide = (activeIndex - 2 + totalSlides) % totalSlides || totalSlides;
@@ -20,7 +20,7 @@ const Carousel = () => {
     const mockItems = [
       {
         id: 'item-4',
-        url: logo1,
+        url: logo,
         type: 'image'
     },
         {
