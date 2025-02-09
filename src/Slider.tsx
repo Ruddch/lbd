@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+// @ts-expect-error dfs
 import { useSpringCarousel } from 'react-spring-carousel'
 import video from './assets/vid.mp4'
 import video2 from './assets/vid2.mp4'
@@ -57,7 +58,7 @@ const Carousel = () => {
         })
     })
 
-    useListenToCustomEvent((event) => {
+    useListenToCustomEvent((event: { eventName: string; nextItem: { id: React.SetStateAction<string> } }) => {
         if (event.eventName === 'onSlideStartChange') {
             setCurrentSlide(event?.nextItem?.id)
         }
