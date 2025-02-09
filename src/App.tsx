@@ -1,7 +1,4 @@
-import logo1 from './assets/logo1.png'
-import logo from './assets/logo.png'
 import './App.css'
-import video from './assets/vid.mp4'
 import Carousel from './Slider'
 
 
